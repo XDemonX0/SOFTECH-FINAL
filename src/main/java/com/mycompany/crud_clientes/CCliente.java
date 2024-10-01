@@ -220,7 +220,7 @@ public class CCliente {
         
         pTablaClientesTotales.setModel(modelo);
         
-        sql = "select * from cliente;";
+        sql = "select id_cliente, email, tipo_identificacion_id, numero_identificacion_cliente, nombre_cliente, apellido_cliente, password, telefono_cliente, direccion_entrega_cliente, fecha_nacimiento_cliente, ciudad_id, estado from cliente;";
         
         String[] datos = new String[12];
         Statement st;
