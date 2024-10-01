@@ -15,10 +15,10 @@ import javax.swing.JOptionPane;
 public class Database {
          Connection  conectar = null;
     
-        String user = "root";
-        String password = "";
+        String user = "adso8com_user";
+        String password = "4~Z3zi4d%mYc";
         String db = "adso8com_softech_db";
-        String host = "localhost";
+        String host = "190.8.176.18";
         String port = "3306";
         
         

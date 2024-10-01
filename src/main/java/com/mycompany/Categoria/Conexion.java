@@ -14,9 +14,9 @@ import javax.swing.JOptionPane;
  */
 public class Conexion {
     Connection conectar = null;
-    String host = "localhost";
-    String user = "root";
-    String password = "";
+    String host = "190.8.176.18";
+    String user = "adso8com_user";
+    String password = "4~Z3zi4d%mYc";
     String database = "adso8com_softech_db";
     int port = 3306;
     

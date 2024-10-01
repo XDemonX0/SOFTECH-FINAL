@@ -13,10 +13,10 @@ import javax.swing.JOptionPane;
 public class CConexion {
     Connection conectar = null;
     
-    String user = "root";
-    String pass = "";
+    String user = "adso8com_user";
+    String pass = "4~Z3zi4d%mYc";
     String db = "adso8com_softech_db";
-    String ip = "localhost";
+    String ip = "190.8.176.18";
     String puerto = "3306";
     
     String cadena = "jdbc:mysql://"+ip+":"+puerto+"/"+db;
